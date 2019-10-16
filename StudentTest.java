@@ -37,7 +37,7 @@ public class StudentTest {
 			assertTrue(result);
 		}
 	
-		Student student = new Student("x", "Y", 5);
+		Student student = new Student("X", "Y", 5);
 		
 		result = true;
 		actual = secondStudent.compareTo(student);
@@ -48,7 +48,7 @@ public class StudentTest {
 		
 		result =false;
 		
-		Student studentSame=new Student("x", "y", 5);
+		Student studentSame=new Student("X", "Y", 3);
 		actual = secondStudent.compareTo(studentSame);
 		assertEquals(0,actual);
 
